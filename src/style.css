@@ -1,7 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Thiết lập màu nền cho toàn bộ trang */
+:root {
+  background-color: #111827; /* Đây là mã màu của bg-gray-900 */
+  color: white;
+}
 
 body {
-  @apply bg-gray-900 text-white; /* Giao diện tối cho ngầu nhé Khôi */
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
